@@ -1,4 +1,4 @@
-*,
+*, 
 *::before,
 *::after {
     box-sizing: border-box;
@@ -12,16 +12,15 @@ nav {
     display: flex;
 }
 
-nav a {
-    color: black;
+nav a:link, nav a:visited {
+    padding: 1.1rem 1.5rem;
     text-decoration: none;
-    padding: 16px;
-    text-align: center;
+    font-size: 1.2rem;
+    color: black;
 }
 
-nav a:hover {
-    background-color: black;
-    color: white;
+nav a:hover, nav a:active {
     text-decoration: underline;
+    color: white;
+    background-color: black;
 }
-
