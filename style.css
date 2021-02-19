@@ -5,9 +5,31 @@
 }
 
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
 }
 
+a:link, a:visited {
+    color: royalblue;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: rgb(15, 180, 195);
+    text-decoration: underline;
+}
+
+p {
+    line-height: 1.75rem;
+}
+
+/* 
+==================================================================
+==================================================================
+HEADER
+==================================================================
+==================================================================
+*/
 nav {
     display: flex;
     background-color: black;
@@ -25,3 +47,40 @@ nav a:hover, nav a:active {
     color: black;
     background-color: white;
 }
+
+.header {
+    margin: 0;
+    padding: 80px 60px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.header p {
+    font-size: 25px;
+}
+
+/* 
+==================================================================
+==================================================================
+MAIN
+==================================================================
+==================================================================
+*/
+
+main {
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+main section {
+    margin: 15px;
+    font-size: 1.15rem;
+}
+
+
