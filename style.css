@@ -10,17 +10,18 @@ body {
 
 nav {
     display: flex;
+    background-color: black;
 }
 
 nav a:link, nav a:visited {
     padding: 1.1rem 1.5rem;
     text-decoration: none;
     font-size: 1.2rem;
-    color: black;
+    color: white;
 }
 
 nav a:hover, nav a:active {
     text-decoration: underline;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
 }
